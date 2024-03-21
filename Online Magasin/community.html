@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/jpg" href="images/ACATHETICS favicon.png">
+  <title>ACATHETICS</title>
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- JetBrains Mono font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+</head>
+
+<body style="background: url(images/community.jpg); background-size: cover; background-repeat: no-repeat;">
+  <!-- HEADER -->
+  
+  <header style="background-color: rgb(255, 255, 255);">
+    <h1>ACATHETICS</h1>
+    
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Hjem</a></li>
+        <li><a href="couture.html">Couture mode</a></li>
+        <li><a href="fund.html">Budgetvenlige fund </a></li>
+        <li><a href="DIY.html">DIY & Genbrug</a></li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="omos.html">Om Os</a></li>
+
+      </ul>
+    </nav>
+
+    <hr> 
+  </header>
+
+
+  <main>
+    <div class="signup-container">
+      <form class="signup-form" id="signupForm">
+          <h2>Meld dig ind i vores community!</h2>
+          <div class="input-group">
+              <label for="username">Brugernavn</label>
+              <input type="text" id="username" name="username" placeholder="Dit navn" required>
+          </div>
+          <div class="input-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+          </div>
+          <div class="input-group password-input">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" placeholder="Password" required>
+              <span class="toggle-password">Show</span>
+          </div>
+          <button type="submit" class="signup-button">Sign Up</button>
+      </form>
+  </div>
+
+  <script src="script.js"></script>
+</main>
+
+
+
+  <footer style="background-color: rgb(255, 255, 255);">
+    <hr>
+    &copy; copyright reserved <br>
+     <a href="mailto:FakeMail.com">FakeMail.com</a>
+  </footer>
+</body>
+</html>

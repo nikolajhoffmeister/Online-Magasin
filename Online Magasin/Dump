@@ -1,0 +1,11 @@
+  <!-- Header 1-->
+  <header style="background-color: rgb(255, 255, 255);">
+    <h1>ACATHETICS</h1>
+    <a href="">Hjem</a>
+    <a href="">Couture mode</a>
+    <a href="fund.html">Budgetvenlige fund</a>
+    <a href="">DIY & Genbrug</a>
+    <a href="">Community</a>
+    <a href="">Om Os</a>
+    <hr>
+  </header>
